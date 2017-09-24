@@ -6,8 +6,6 @@ In this project, I will be detecting lane lines on an image or a video of  the h
 
 The main objective of this project is to identify the lane lines from a video feed or an image. Once the lane lines are identified we want to draw the identified lines over the existing image or video.
 
-
-
 ---
 
 ### Reflection
@@ -43,17 +41,17 @@ we use HSL ( Hue,Saturation and Lightness) representation of RGB color map. This
 <img src="writeup_images/filtered_img.png" width="480" align = "center" alt="Filtered Images" />
 
 ### **Gray Scaling**
-Next we convert the filtered images into gray scale images, in order to better assist in edge detection
+Next we convert the filtered images into gray scale images, in order to better assist in the canny edge detection, which finds the intesity gradients of the image. We use `cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)` to convert RGB image to graysclae image
 
 <img src="writeup_images/grayscale_img.png" width="480" align = "center" alt="Filtered Images" />
 
 ### **Gaussian Smoothing**
-Next we convert the filtered images into gray scale images, in order to better assist in edge detection
+We apply a gaussian filter to the gray scaled image, since the edge detection is easily affected by image noise. Applying a a guassian filter prevents false detection. `cv2.GaussianBlur` is used to apply gaussian smoothing.
 
 <img src="writeup_images/Gaussian_smoothing.png" width="480" align = "center" alt="Gaussian Smoothed Images" />
 
 ### **Canny Edge Detection**
-Next we convert the filtered images into gray scale images, in order to better assist in edge detection
+Canny Edge Detection is a technique that uses multi-stage algorithm to detect a wide range of edges in images. we use `cv2.Canny` to detect the canny edges in the image
 
 <img src="writeup_images/Canny_edge_detection.png" width="480" align = "center" alt="Canny edge detection Images" />
 
@@ -63,7 +61,15 @@ We apply another image mask to extract only the pixels in the region of interest
 <img src="writeup_images/ROI_img.png" width="480" align = "center" alt="Region of Interest Images" />
 
 ### **Hough Transform**
- Finally we perform haugh transform on the extracted image to identify the vertical lines (lanes) and we execute the `draw_lines` function to connect the disjoint lane lines.
+ Finally we perform haugh transform on the extracted image to identify the vertical lines (lanes) and we execute the `draw_lines` function to connect the disjoint lane lines. In performing the hough line transform we define various parameters and tune them by trial and error.
+ 
+ Parameters to Tune:
+ - rho - Distance resolution in pixels
+ - theta - Angle resolution in radians
+ - threshold - Accumulator threshold parameter
+ - min_line_length - Minimum line length. 
+ - max_line_gap - Maximum gap allowed between points on the same line.
+ 
  
  After identfying the lane lines we superimpose the identified lane lines on top of the original images to display and asses the accuracy of the lane detection.
  

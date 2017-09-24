@@ -15,8 +15,7 @@ The main objective of this project is to identify the lane lines from a video fe
 ### Input Images
 The road images provided to identify the lanes lines are the following. These have some features that we would like to extract, lane lines are always either yellow or white and they are vertical and never horizontal. In most case only the lower half of the image have useful information regarding to the lane lines.
 
-[image1]: ./writeup_images/initial_img.png"
-![alt text][image1]
+<img src="writeup_images/initial_img.png" width="480" alt="Combined Image" />
 
 ### 1.Pipeline 
 In order to achieve the above goal, we will need to preprocess the image and make use of image prodessing tecnhiques in identifying lines in an image. 

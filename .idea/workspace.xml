@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cbf081-8d5a-4a6d-a867-f54bc6fcea5f" name="Default" comment="First Commit - P1 Lane lines">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__temp__.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_videos_output/challenge.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_videos_output/solidWhiteRight.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/writeup_images/initial_img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/writeup.md" afterPath="$PROJECT_DIR$/writeup.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="P1-LaneLines.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="P1-LaneLines.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/P1-LaneLines.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeup.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/writeup.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -34,6 +47,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/P1-LaneLines.ipynb" />
+        <option value="$PROJECT_DIR$/writeup.md" />
       </list>
     </option>
   </component>
@@ -44,9 +58,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="929" />
-    <option name="height" value="1088" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -69,6 +83,11 @@
             <path>
               <item name="carND-P1-LaneLines" type="b2602c69:ProjectViewProjectNode" />
               <item name="carND-P1-LaneLines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carND-P1-LaneLines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carND-P1-LaneLines" type="462c0819:PsiDirectoryNode" />
+              <item name="writeup_images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,6 +222,17 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/writeup.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

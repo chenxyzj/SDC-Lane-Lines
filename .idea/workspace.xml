@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91cbf081-8d5a-4a6d-a867-f54bc6fcea5f" name="Default" comment="Adding all images to writeup_images">
+    <list default="true" id="91cbf081-8d5a-4a6d-a867-f54bc6fcea5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -145,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506287401263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding all images to writeup_images">
+      <created>1506287629280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506287629280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding all images to writeup_images">
+      <created>1506287646002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506287646002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -210,7 +224,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit - P1 Lane lines" />
     <MESSAGE value="Adding first image to writeup_images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding first image to writeup_images" />
+    <MESSAGE value="Adding all images to writeup_images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding all images to writeup_images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
